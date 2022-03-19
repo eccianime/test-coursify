@@ -27,4 +27,11 @@ export type IMedia = {
         rendered: string;
     },
     source_url: string;
+    media_details: {
+        sizes: {
+            thumbnail: {
+                source_url: string
+            }
+        }
+    }
 }

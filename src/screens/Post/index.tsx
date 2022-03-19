@@ -18,6 +18,8 @@ const Post = ({ route }: { route: PostRouteProps }) => {
                     tagsStyles={{
                         a: styles.textContent,
                         h2: styles.textContent,
+                        h3: styles.textContent,
+                        h4: styles.textContent,
                         span: styles.textContentHeight,
                         p: styles.textContentMargin,
                         ul: styles.textContentMargin,

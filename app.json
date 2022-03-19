@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ingjeanpaulrojas.testeDelivery365"
     },
     "web": {
       "favicon": "./src/assets/images/favicon.png"
