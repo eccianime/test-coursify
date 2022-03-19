@@ -25,6 +25,6 @@ export const PICKER_OPTIONS: IOption[] = [
     { label: 'Padrão', value: 'DEFAULT' },
     { label: 'A-Z', value: 'ASC'  },
     { label: 'Z-A', value: 'DESC'  },
-    // { label: 'Mais visualizados', value: 'MORE_VIEWS'  },
-    // { label: 'Menos visualizados', value: 'LESS_VIEWS'  },
+    { label: 'Mais visualizados', value: 'MORE_VIEWS'  },
+    { label: 'Menos visualizados', value: 'LESS_VIEWS'  },
 ]

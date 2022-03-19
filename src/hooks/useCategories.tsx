@@ -31,7 +31,7 @@ const useCategories = (selectedOrder: ISelectedOption) => {
                 break;
             case 'LESS_VIEWS':
                 await addViewsToData(data);
-                data = data.sort((a, b) => a.views - b.views)
+                data = data.sort((a, b) => b.views - a.views)
                 break;
             default: break;
         }
